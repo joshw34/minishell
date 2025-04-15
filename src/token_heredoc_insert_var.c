@@ -49,11 +49,9 @@ int	hd_var_insert(t_tokens *temp, char *new_var, char *var_name)
 	char	*new;
 	int		i;
 	int		j;
-	int		k;
 
 	i = 0;
 	j = 0;
-	k = 0;
 	new = ft_calloc(ft_strlen(temp->word) + ft_strlen(new_var) + 1,
 			sizeof(char));
 	while (i < temp->start)
