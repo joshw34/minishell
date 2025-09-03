@@ -55,7 +55,7 @@ OBJ_FILES = $(C_FILES:.c=.o)
 
 REMOVE = rm -f
 CC = cc
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -Wno-unused-result
 
 all: $(NAME)
 
